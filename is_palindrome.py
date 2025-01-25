@@ -1,4 +1,8 @@
 def is_palindrome(user_input):
+    """
+    :param user_input: String entered by user
+    :return: Returns a message if result is a palindrome or not.
+    """
     if user_input[::-1] == user_input:
         print(user_input + user_input[::-1])
         message = f"{user_input} is a palindrome."
