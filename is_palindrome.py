@@ -10,7 +10,9 @@ def is_palindrome(user_input):
 
 
 def test():
-    pass
+    assert is_palindrome("racecar") == "racecar is a palindrome."
+    assert is_palindrome("civic") == "civic is a palindrome."
+    assert is_palindrome("car") == "car is not a palindrome."
 
 
 def main():
